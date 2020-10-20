@@ -1,0 +1,86 @@
+* {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;	
+	font-family: Gilroy Bold;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+ 
+ul {
+ list-style: none;
+ padding-left: 0;
+}
+
+.content {
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+li a{
+	color:#828282;
+	font-size: 18px;
+}
+.Name {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Name h1 {
+	width: 124px;
+}
+.Name ul {
+	display: flex;
+	transform: rotate(-90deg) translateY(25px);
+}
+
+.About_me h2 {
+	font-size: 34px;
+	text-align: center;
+	color: #070707;
+}
+
+.About_me p {
+	width: 485px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin: 35px auto 10px auto;
+}
+
+.Skills h2 {
+	font-size: 34px;
+	text-align: center;
+	color: #070707;
+}
+
+.Skills > p {
+	width: 485px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin: 35px auto 10px auto;
+}
+
+.PS {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Pomogite {
+	display: flex;
+	justify-content: space-between;
+}
